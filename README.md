@@ -14,13 +14,13 @@ https://www.kaggle.com/c/titanic<br>
  
 ## Modeling
   학습에 사용된 모델은 아래와 같습니다.
- 1. MLP(hidden layer 2개, tensorflow)
+ 1. GradientBoosting
  2. Randomforest
  3. XGBoost
  4. LightGBM
  5. Lasso
  6. ElasticNet
- 7. GradientBoosting
+ 7. MLP(hidden layer 2개, tensorflow)
  
 모델의 정의, 학습, 검증을 진행하고 ensemble 기법을 사용하여 최종적으로 train 하고 5가지 model을 선정해 결과를 도출했습니다. 중간의 검증과정에서는 단순 데이터 분리를 하여 검증을 해보고, k-fold cross validation을 사용하여 검증, 가장 cost가 적은 모델을 선정했습니다.<br>
 ## Summary
